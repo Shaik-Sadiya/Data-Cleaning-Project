@@ -1,0 +1,39 @@
+============================================================
+DATA CLEANING REPORT
+============================================================
+
+Report Generated : 2026-07-02 19:29:12
+
+Original Dataset Shape : 48895 Rows x 16 Columns
+Cleaned Dataset Shape : 17506 Rows x 16 Columns
+
+Rows Removed : 31389
+Missing Values Before : 20141
+Missing Values After : 0
+Duplicate Rows Before : 0
+Duplicate Rows After : 0
+
+Memory Usage : 8017.78 KB
+
+Column Data Types
+------------------------------------------------------------
+id                            int64
+name                          str
+host_id                       int64
+host_name                     str
+neighbourhood_group           str
+neighbourhood                 str
+latitude                      float64
+longitude                     float64
+room_type                     str
+price                         int64
+minimum_nights                int64
+number_of_reviews             int64
+last_review                   str
+reviews_per_month             float64
+calculated_host_listings_countint64
+availability_365              int64
+
+============================================================
+Data Cleaning Completed Successfully
+============================================================
