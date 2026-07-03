@@ -23,8 +23,8 @@ def save_cleaned_data(df, output_path):
     # Save CSV
     df.to_csv(output_path, index=False)
 
-    print(f"✅ Cleaned dataset saved successfully.")
-    print(f"📁 Location: {output_path}")
-    print(f"📊 Final Dataset Shape: {df.shape}")
+    print(f"Cleaned dataset saved successfully.")
+    print(f"Location: {output_path}")
+    print(f"Final Dataset Shape: {df.shape}")
 
     print("=" * 60)
